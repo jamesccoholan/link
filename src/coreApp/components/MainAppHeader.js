@@ -22,7 +22,7 @@ function MainAppHeader({ onLogout }) {
             color: theme.palette.text.primary,
           }}
         >
-          Stride AI
+          Link
         </Typography>
         <DropdownMenu onLogout={onLogout} />
       </Toolbar>

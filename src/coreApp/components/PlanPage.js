@@ -66,7 +66,7 @@ function PlanPage() {
                   marginBottom: "20px",
                 }} // increased marginBottom
               >
-                Stride AI: Automated Medical Record Generation
+                Link: Automated Medical Record Generation
               </Typography>
               <br></br>
               <br></br>

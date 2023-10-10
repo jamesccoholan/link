@@ -1,29 +1,29 @@
 import React, { useEffect } from "react";
 import { Box, Card, CardContent, Typography, Grid } from "@mui/material";
 import { styled } from "@mui/material/styles";
-import MusicNoteIcon from "@mui/icons-material/MusicNote";
-import TrendingUpIcon from "@mui/icons-material/TrendingUp";
-import PeopleIcon from "@mui/icons-material/People";
+import LocationOnIcon from "@mui/icons-material/LocationOn";
+import EventIcon from "@mui/icons-material/Event";
+import FavoriteIcon from "@mui/icons-material/Favorite";
 import AOS from "aos";
 
 const features = [
   {
-    title: "AI-Driven Insights",
+    title: "Location-Aware Matches",
     description:
-      "Our AI algorithms analyze your music and fan engagement, providing actionable insights to enhance your career.",
-    icon: <MusicNoteIcon fontSize="large" />,
+      "Discover and connect with potential matches attending the same events as you, ensuring more meaningful interactions.",
+    icon: <LocationOnIcon fontSize="large" />,
   },
   {
-    title: "Career Growth",
+    title: "Event Insights",
     description:
-      "Automated tools to help you negotiate better contracts, find gigs, and expand your brand in the music industry.",
-    icon: <TrendingUpIcon fontSize="large" />,
+      "Get insights on trending events around you and see who's interested. Never miss out on an opportunity to meet someone special.",
+    icon: <EventIcon fontSize="large" />,
   },
   {
-    title: "Community Building",
+    title: "Preference Filters",
     description:
-      "Engage with your fanbase more effectively with automated social media posts and targeted fan interactions.",
-    icon: <PeopleIcon fontSize="large" />,
+      "Customize your preferences to find matches that align with your interests, ensuring a compatible connection.",
+    icon: <FavoriteIcon fontSize="large" />,
   },
 ];
 
@@ -81,7 +81,7 @@ const Features = () => {
         textAlign="center"
         style={{ color: "white", marginBottom: "40px" }}
       >
-        Built By & For
+        Discover Connections
       </Typography>
       <Typography
         variant="h4"
@@ -89,7 +89,7 @@ const Features = () => {
         textAlign="center"
         style={{ color: "white", marginBottom: "40px" }}
       >
-        Artists || Entertainers || Creators
+        At Events Near You
       </Typography>
 
       <Grid container spacing={5} justifyContent="center">

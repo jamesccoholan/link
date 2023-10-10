@@ -11,7 +11,7 @@ function Footer() {
       }}
     >
       <Typography variant="body2" style={{ color: "#FFFFFF" }} component="p">
-        Stride AI © 2023. All Rights Reserved.
+        Link © 2023. All Rights Reserved.
       </Typography>
     </div>
   );

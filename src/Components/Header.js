@@ -19,7 +19,7 @@ function Header() {
             color: "#FFFFFF",
           }}
         >
-          Stride AI
+          Link
         </Typography>
       </Toolbar>
     </AppBar>
