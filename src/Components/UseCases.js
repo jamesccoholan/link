@@ -69,7 +69,7 @@ const UseCases = () => (
     <Grid container spacing={4} justifyContent="center">
       {useCases.map((useCase, index) => (
         <Grid item key={index} xs={12} sm={6} md={4}>
-          <UseCaseCard>
+          {/* <UseCaseCard>
             <CardMedia
               component="img"
               height="140"
@@ -91,7 +91,7 @@ const UseCases = () => (
                 {useCase.description}
               </Typography>
             </CardContent>
-          </UseCaseCard>
+          </UseCaseCard> */}
         </Grid>
       ))}
     </Grid>
