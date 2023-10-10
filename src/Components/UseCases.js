@@ -52,7 +52,7 @@ const UseCases = () => (
   <Box
     padding={5}
     style={{
-      background: "linear-gradient(to right, #0f2027, #203a43, #2c5364)",
+      background: "linear-gradient(to right, #0072ff, #00c6ff)",
     }}
   >
     <Typography

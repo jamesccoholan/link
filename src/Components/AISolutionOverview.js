@@ -11,11 +11,11 @@ import {
   ListItemText,
 } from "@mui/material";
 import { styled } from "@mui/material/styles";
-import Image from "../Assets/545.png";
-import ScheduleIcon from "@mui/icons-material/Schedule";
-import CampaignIcon from "@mui/icons-material/Campaign";
-import AnalyticsIcon from "@mui/icons-material/Analytics";
-import CustomizeIcon from "@mui/icons-material/Tune";
+import Image from "../Assets/545.png"; // Update with a relevant image for "Link"
+import LocationOnIcon from "@mui/icons-material/LocationOn";
+import EventIcon from "@mui/icons-material/Event";
+import PeopleIcon from "@mui/icons-material/People";
+import HeartIcon from "@mui/icons-material/Favorite";
 import SecurityIcon from "@mui/icons-material/Security";
 
 const StyledPaper = styled(Paper)(({ theme }) => ({
@@ -40,10 +40,10 @@ const StyledIcon = styled(ListItemIcon)(({ theme }) => ({
   marginRight: theme.spacing(2),
 }));
 
-const AISolutionOverview = () => {
+const LinkAppOverview = () => {
   useEffect(() => {
     document.body.style.background =
-      "linear-gradient(to right, #f5f5f5, #e0e0e0)";
+      "linear-gradient(to right, #0072ff, #00c6ff)";
 
     return () => {
       document.body.style.background = "";
@@ -54,18 +54,18 @@ const AISolutionOverview = () => {
     <Container maxWidth="lg">
       <Box py={10} textAlign="center">
         <GradientText variant="h4" gutterBottom>
-          AI Solution for Artists and Entertainers
+          Discover Connections with "Link"
         </GradientText>
         <GradientText variant="body1" paragraph>
-          Discover the power of our AI manager and agent designed to cater to
-          the unique needs of artists and entertainers. Unleash your creativity
-          while our AI takes care of the management and promotion.
+          Experience the innovative way of connecting at events. With "Link",
+          find potential matches attending the same gatherings, ensuring genuine
+          interactions and memorable moments.
         </GradientText>
         <Grid container spacing={5} justifyContent="center" alignItems="center">
           <Grid item md={6}>
             <img
               src={Image}
-              alt="AI Solution"
+              alt="Link Dating App"
               style={{
                 width: "100%",
                 borderRadius: "15px",
@@ -76,42 +76,42 @@ const AISolutionOverview = () => {
           <Grid item md={6}>
             <StyledPaper>
               <Typography variant="h6" gutterBottom style={{ color: "#fff" }}>
-                AI Manager & Agent Features:
+                Key Features of "Link":
               </Typography>
               <List>
                 <ListItem>
                   <StyledIcon>
-                    <ScheduleIcon style={{ color: "#fff" }} />
+                    <LocationOnIcon style={{ color: "#fff" }} />
                   </StyledIcon>
                   <ListItemText
-                    primary="Smart Scheduling"
+                    primary="Location-Aware Matches"
                     style={{ color: "#fff" }}
                   />
                 </ListItem>
                 <ListItem>
                   <StyledIcon>
-                    <CampaignIcon style={{ color: "#fff" }} />
+                    <EventIcon style={{ color: "#fff" }} />
                   </StyledIcon>
                   <ListItemText
-                    primary="Automated Marketing"
+                    primary="Discover Events Near You"
                     style={{ color: "#fff" }}
                   />
                 </ListItem>
                 <ListItem>
                   <StyledIcon>
-                    <AnalyticsIcon style={{ color: "#fff" }} />
+                    <PeopleIcon style={{ color: "#fff" }} />
                   </StyledIcon>
                   <ListItemText
-                    primary="Real-time Analytics"
+                    primary="Connect with Genuine People"
                     style={{ color: "#fff" }}
                   />
                 </ListItem>
                 <ListItem>
                   <StyledIcon>
-                    <CustomizeIcon style={{ color: "#fff" }} />
+                    <HeartIcon style={{ color: "#fff" }} />
                   </StyledIcon>
                   <ListItemText
-                    primary="Customizable for Artists"
+                    primary="Tailored Dating Preferences"
                     style={{ color: "#fff" }}
                   />
                 </ListItem>
@@ -120,7 +120,7 @@ const AISolutionOverview = () => {
                     <SecurityIcon style={{ color: "#fff" }} />
                   </StyledIcon>
                   <ListItemText
-                    primary="Secure & Privacy Compliant"
+                    primary="Safety & Privacy Assured"
                     style={{ color: "#fff" }}
                   />
                 </ListItem>
@@ -133,4 +133,4 @@ const AISolutionOverview = () => {
   );
 };
 
-export default AISolutionOverview;
+export default LinkAppOverview;
