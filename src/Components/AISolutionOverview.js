@@ -11,7 +11,7 @@ import {
   ListItemText,
 } from "@mui/material";
 import { styled } from "@mui/material/styles";
-import Image from "../Assets/545.png"; // Update with a relevant image for "Link"
+import Image from "../Assets/545.png";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import EventIcon from "@mui/icons-material/Event";
 import PeopleIcon from "@mui/icons-material/People";
@@ -20,7 +20,7 @@ import SecurityIcon from "@mui/icons-material/Security";
 
 const StyledPaper = styled(Paper)(({ theme }) => ({
   padding: theme.spacing(5),
-  background: "linear-gradient(to right, #0f2027, #203a43, #2c5364)",
+  background: "linear-gradient(to right, #0072ff, #00c6ff)", // Blue gradient for the card background
   border: "1px solid rgba(255, 255, 255, 0.2)",
   borderRadius: "15px",
   color: "#fff",
@@ -28,7 +28,7 @@ const StyledPaper = styled(Paper)(({ theme }) => ({
 }));
 
 const GradientText = styled(Typography)(({ theme }) => ({
-  background: "linear-gradient(to right, #0f2027, #203a43, #2c5364)",
+  background: "linear-gradient(to right, #0072ff, #00c6ff)",
   color: "transparent",
   "-webkit-background-clip": "text",
   "background-clip": "text",
@@ -43,7 +43,7 @@ const StyledIcon = styled(ListItemIcon)(({ theme }) => ({
 const LinkAppOverview = () => {
   useEffect(() => {
     document.body.style.background =
-      "linear-gradient(to right, #0072ff, #00c6ff)";
+      "linear-gradient(to right, #f5f5f5, #e0e0e0)";
 
     return () => {
       document.body.style.background = "";
