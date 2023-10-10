@@ -1,0 +1,77 @@
+
+
+firebase deploy
+
+
+firebase deploy --only hosting
+
+
+
+Deploy
+
+npm run build
+firebase deploy --only hosting
+firebase deploy --only functions
+
+
+firebase deploy
+
+firebase deploy --only functions
+firebase deploy --only hosting
+
+
+npm run build
+firebase deploy --only hosting
+
+firebase deploy
+
+
+firebase deploy --only hosting
+firebase deploy --only functions
+
+Development
+firebase emulators:start
+
+
+firebase emulators:start --only functions
+
+Front End
+npm start
+
+
+Site
+https://nextgensolutions.web.app
+
+
+Github Repo
+https://github.com/jamesccoholan/nextgensolutions
+
+
+Firebase Console
+start "https://console.firebase.google.com/u/0/project/nextgensolutions/overview"
+
+
+Change Firebase Projects
+firebase use --add
+
+firebase use
+
+
+
+Fixing the Invoker for Cloud Functions and then installing Axios in FUNCTIONS not the root director was the key
+cloud 
+
+Google Cloud Console:
+
+Navigate to Google Cloud Console.
+Go to the Cloud Functions section.
+Click the checkbox next to the function you want to make publicly accessible. (Note: Don't click on the function name itself, just the checkbox.)
+Click on "Permissions" at the top of the screen.
+Click on "Add principal".
+In the "New principals" field, type allUsers.
+From the "Select a role" drop-down menu, navigate to "Cloud Functions" and then select Cloud Functions Invoker.
+Confirm and save your changes." aria-hidden="true"></i>
+
+
+fucntions Site
+https://console.cloud.google.com/functions/list?env=gen1&project=nextgensolutions&tab=logs

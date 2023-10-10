@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+  background-color: #121212; /* Dark mode background for the whole app */
+  display: flex;             /* Added flex display */
+  flex-direction: column;    /* Stack children vertically */
+  min-height: 100vh;         /* Ensure the App takes up the full viewport height */
+}
+
+.App-header {
+  background-color: #1f1f1f; 
+  padding: 20px 0; 
+  display: flex;
+  justify-content: space-between; /* To separate the title from the auth links */
+  align-items: center;             /* Vertically align items */
+  font-size: calc(10px + 2vmin);
+  color: #e0e0e0;
+}
+
+.auth-links {
+  display: flex;
+  gap: 15px; /* Provides spacing between Signup and Login texts */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #121212; /* Dark mode background for the entire page */
+  color: #e0e0e0; /* Default text color, adjust if needed */
+  font-family: 'Roboto', sans-serif; /* or whatever your default font is */
+}
+
+.header-title {
+  font-size: 24px; /* Adjust as per your preference */
+  font-weight: 500; /* Not too bold, not too light */
+  margin: 0; /* Resetting any default margins */
+  color: #e0e0e0; /* Lighter text color for dark mode */
+}
+
+.hero-section {
+  flex: 1; /* Make the hero section expand between header and footer */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px; 
+}
+
+.App-link {
+  color: #bb86fc; /* Purple color for links */
+}
+
+.App-footer {
+  padding: 20px 0;           /* Added some padding for spacing */
+  background-color: #1f1f1f; /* Same color as header */
+  color: #e0e0e0;            /* Lighter text color for dark mode */
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation-name: fadeIn;
+  animation-duration: 2s;
+}
