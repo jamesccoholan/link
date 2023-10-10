@@ -20,3 +20,4 @@ const StyledCard = styled.div`
   background-color: transparent; // Make the background transparent
   margin: 20px 0; // Some margin around the card
 `;
+//
